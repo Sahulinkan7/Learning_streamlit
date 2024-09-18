@@ -17,3 +17,9 @@ conda activate env/
 ```bash
 streamlit hello
 ```
+## run your first streamlit app using below command
+
+```bash
+streamlit run 01_Baic_streamlit_app/main.py
+```
+
