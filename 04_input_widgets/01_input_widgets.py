@@ -16,3 +16,5 @@ if select:
     print(df[select])
     
 st.divider()
+
+st.radio(label="select gender",options=['col1','col2'],horizontal=True)
