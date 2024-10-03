@@ -18,3 +18,4 @@ if select:
 st.divider()
 
 st.radio(label="select gender",options=['col1','col2'],horizontal=True)
+st.checkbox("stay logged in")
