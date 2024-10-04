@@ -18,4 +18,11 @@ if select:
 st.divider()
 
 st.radio(label="select gender",options=['col1','col2'],horizontal=True)
+
+cities=st.multiselect(label="select cities",options=['Delhi','Mumbai','Trichy','Bhubaneswar','Kolkata'],placeholder="select cities")
+
+if cities:
+    for city in cities:
+        st.write(city)
 st.checkbox("stay logged in")
+
