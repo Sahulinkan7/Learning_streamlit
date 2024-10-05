@@ -26,3 +26,6 @@ if cities:
         st.write(city)
 st.checkbox("stay logged in")
 
+
+st.slider(label="select value",max_value=100,min_value=20,step=20)
+
