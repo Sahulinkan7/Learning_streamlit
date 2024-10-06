@@ -27,5 +27,5 @@ if cities:
 st.checkbox("stay logged in")
 
 
-st.slider(label="select value",max_value=100,min_value=20,step=20)
+st.slider(label="select value of slider",max_value=100,min_value=20,step=20)
 
