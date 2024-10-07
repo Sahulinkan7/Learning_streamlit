@@ -24,7 +24,7 @@ cities=st.multiselect(label="select cities",options=['Delhi','Mumbai','Trichy','
 if cities:
     for city in cities:
         st.write(city)
-st.checkbox("stay logged in")
+st.checkbox("stay logged in here")
 
 
 st.slider(label="select value of slider",max_value=100,min_value=20,step=20)
